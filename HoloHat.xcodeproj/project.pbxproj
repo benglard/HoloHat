@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AE359761BA50F1F002D6CC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE359751BA50F1F002D6CC7 /* AppDelegate.swift */; };
+		5AE359781BA50F1F002D6CC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE359771BA50F1F002D6CC7 /* ViewController.swift */; };
+		5AE3597B1BA50F1F002D6CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE359791BA50F1F002D6CC7 /* Main.storyboard */; };
+		5AE3597D1BA50F1F002D6CC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE3597C1BA50F1F002D6CC7 /* Images.xcassets */; };
+		5AE359801BA50F1F002D6CC7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AE3597E1BA50F1F002D6CC7 /* LaunchScreen.xib */; };
+		5AE3598C1BA50F20002D6CC7 /* HoloHatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE3598B1BA50F20002D6CC7 /* HoloHatTests.swift */; };
+		5AE359961BA50F3F002D6CC7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE359951BA50F3F002D6CC7 /* Accelerate.framework */; };
+		5AE359991BA50F4B002D6CC7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE359971BA50F4B002D6CC7 /* AVFoundation.framework */; };
+		5AE3599A1BA50F4B002D6CC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE359981BA50F4B002D6CC7 /* Foundation.framework */; };
+		5AE3599C1BA50F4F002D6CC7 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE3599B1BA50F4F002D6CC7 /* AssetsLibrary.framework */; };
+		5AE359A11BA50F61002D6CC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE3599D1BA50F61002D6CC7 /* CoreGraphics.framework */; };
+		5AE359A21BA50F61002D6CC7 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE3599E1BA50F61002D6CC7 /* CoreImage.framework */; };
+		5AE359A31BA50F61002D6CC7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE3599F1BA50F61002D6CC7 /* CoreMedia.framework */; };
+		5AE359A41BA50F61002D6CC7 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE359A01BA50F61002D6CC7 /* CoreVideo.framework */; };
+		5AE359A61BA50F68002D6CC7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE359A51BA50F68002D6CC7 /* QuartzCore.framework */; };
+		5AE359A81BA50F70002D6CC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE359A71BA50F70002D6CC7 /* UIKit.framework */; };
+		5AE359AA1BA50F78002D6CC7 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE359A91BA50F78002D6CC7 /* libc++.dylib */; };
+		5AE359AC1BA50F8D002D6CC7 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE359AB1BA50F8D002D6CC7 /* opencv2.framework */; };
+		5AE359B01BA5122B002D6CC7 /* cv.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5AE359AE1BA5122B002D6CC7 /* cv.mm */; };
+		5AE359B31BA5128A002D6CC7 /* detect.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5AE359B11BA5128A002D6CC7 /* detect.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AE359861BA50F20002D6CC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AE359681BA50F1F002D6CC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AE3596F1BA50F1F002D6CC7;
+			remoteInfo = HoloHat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AE359701BA50F1F002D6CC7 /* HoloHat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoloHat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE359741BA50F1F002D6CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AE359751BA50F1F002D6CC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5AE359771BA50F1F002D6CC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5AE3597A1BA50F1F002D6CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AE3597C1BA50F1F002D6CC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5AE3597F1BA50F1F002D6CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5AE359851BA50F20002D6CC7 /* HoloHatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoloHatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE3598A1BA50F20002D6CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AE3598B1BA50F20002D6CC7 /* HoloHatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoloHatTests.swift; sourceTree = "<group>"; };
+		5AE359951BA50F3F002D6CC7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		5AE359971BA50F4B002D6CC7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5AE359981BA50F4B002D6CC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5AE3599B1BA50F4F002D6CC7 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		5AE3599D1BA50F61002D6CC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5AE3599E1BA50F61002D6CC7 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		5AE3599F1BA50F61002D6CC7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		5AE359A01BA50F61002D6CC7 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		5AE359A51BA50F68002D6CC7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5AE359A71BA50F70002D6CC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5AE359A91BA50F78002D6CC7 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		5AE359AB1BA50F8D002D6CC7 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../../../../Downloads/ios/opencv2.framework; sourceTree = "<group>"; };
+		5AE359AD1BA5122A002D6CC7 /* HoloHat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HoloHat-Bridging-Header.h"; sourceTree = "<group>"; };
+		5AE359AE1BA5122B002D6CC7 /* cv.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = cv.mm; sourceTree = "<group>"; };
+		5AE359AF1BA5122B002D6CC7 /* cv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cv.h; sourceTree = "<group>"; };
+		5AE359B11BA5128A002D6CC7 /* detect.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = detect.mm; sourceTree = "<group>"; };
+		5AE359B21BA5128A002D6CC7 /* detect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detect.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AE3596D1BA50F1F002D6CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE359AC1BA50F8D002D6CC7 /* opencv2.framework in Frameworks */,
+				5AE359AA1BA50F78002D6CC7 /* libc++.dylib in Frameworks */,
+				5AE359A81BA50F70002D6CC7 /* UIKit.framework in Frameworks */,
+				5AE359A61BA50F68002D6CC7 /* QuartzCore.framework in Frameworks */,
+				5AE359A11BA50F61002D6CC7 /* CoreGraphics.framework in Frameworks */,
+				5AE359A21BA50F61002D6CC7 /* CoreImage.framework in Frameworks */,
+				5AE359A31BA50F61002D6CC7 /* CoreMedia.framework in Frameworks */,
+				5AE359A41BA50F61002D6CC7 /* CoreVideo.framework in Frameworks */,
+				5AE3599C1BA50F4F002D6CC7 /* AssetsLibrary.framework in Frameworks */,
+				5AE359991BA50F4B002D6CC7 /* AVFoundation.framework in Frameworks */,
+				5AE3599A1BA50F4B002D6CC7 /* Foundation.framework in Frameworks */,
+				5AE359961BA50F3F002D6CC7 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE359821BA50F20002D6CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AE359671BA50F1F002D6CC7 = {
+			isa = PBXGroup;
+			children = (
+				5AE359AB1BA50F8D002D6CC7 /* opencv2.framework */,
+				5AE359A91BA50F78002D6CC7 /* libc++.dylib */,
+				5AE359A71BA50F70002D6CC7 /* UIKit.framework */,
+				5AE359A51BA50F68002D6CC7 /* QuartzCore.framework */,
+				5AE3599D1BA50F61002D6CC7 /* CoreGraphics.framework */,
+				5AE3599E1BA50F61002D6CC7 /* CoreImage.framework */,
+				5AE3599F1BA50F61002D6CC7 /* CoreMedia.framework */,
+				5AE359A01BA50F61002D6CC7 /* CoreVideo.framework */,
+				5AE3599B1BA50F4F002D6CC7 /* AssetsLibrary.framework */,
+				5AE359971BA50F4B002D6CC7 /* AVFoundation.framework */,
+				5AE359981BA50F4B002D6CC7 /* Foundation.framework */,
+				5AE359951BA50F3F002D6CC7 /* Accelerate.framework */,
+				5AE359721BA50F1F002D6CC7 /* HoloHat */,
+				5AE359881BA50F20002D6CC7 /* HoloHatTests */,
+				5AE359711BA50F1F002D6CC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AE359711BA50F1F002D6CC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AE359701BA50F1F002D6CC7 /* HoloHat.app */,
+				5AE359851BA50F20002D6CC7 /* HoloHatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AE359721BA50F1F002D6CC7 /* HoloHat */ = {
+			isa = PBXGroup;
+			children = (
+				5AE359751BA50F1F002D6CC7 /* AppDelegate.swift */,
+				5AE359771BA50F1F002D6CC7 /* ViewController.swift */,
+				5AE359791BA50F1F002D6CC7 /* Main.storyboard */,
+				5AE3597C1BA50F1F002D6CC7 /* Images.xcassets */,
+				5AE3597E1BA50F1F002D6CC7 /* LaunchScreen.xib */,
+				5AE359731BA50F1F002D6CC7 /* Supporting Files */,
+				5AE359AE1BA5122B002D6CC7 /* cv.mm */,
+				5AE359AF1BA5122B002D6CC7 /* cv.h */,
+				5AE359AD1BA5122A002D6CC7 /* HoloHat-Bridging-Header.h */,
+				5AE359B11BA5128A002D6CC7 /* detect.mm */,
+				5AE359B21BA5128A002D6CC7 /* detect.h */,
+			);
+			path = HoloHat;
+			sourceTree = "<group>";
+		};
+		5AE359731BA50F1F002D6CC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AE359741BA50F1F002D6CC7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AE359881BA50F20002D6CC7 /* HoloHatTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AE3598B1BA50F20002D6CC7 /* HoloHatTests.swift */,
+				5AE359891BA50F20002D6CC7 /* Supporting Files */,
+			);
+			path = HoloHatTests;
+			sourceTree = "<group>";
+		};
+		5AE359891BA50F20002D6CC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AE3598A1BA50F20002D6CC7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AE3596F1BA50F1F002D6CC7 /* HoloHat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE3598F1BA50F20002D6CC7 /* Build configuration list for PBXNativeTarget "HoloHat" */;
+			buildPhases = (
+				5AE3596C1BA50F1F002D6CC7 /* Sources */,
+				5AE3596D1BA50F1F002D6CC7 /* Frameworks */,
+				5AE3596E1BA50F1F002D6CC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoloHat;
+			productName = HoloHat;
+			productReference = 5AE359701BA50F1F002D6CC7 /* HoloHat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AE359841BA50F20002D6CC7 /* HoloHatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE359921BA50F20002D6CC7 /* Build configuration list for PBXNativeTarget "HoloHatTests" */;
+			buildPhases = (
+				5AE359811BA50F20002D6CC7 /* Sources */,
+				5AE359821BA50F20002D6CC7 /* Frameworks */,
+				5AE359831BA50F20002D6CC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AE359871BA50F20002D6CC7 /* PBXTargetDependency */,
+			);
+			name = HoloHatTests;
+			productName = HoloHatTests;
+			productReference = 5AE359851BA50F20002D6CC7 /* HoloHatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AE359681BA50F1F002D6CC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Benjamin Englard";
+				TargetAttributes = {
+					5AE3596F1BA50F1F002D6CC7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5AE359841BA50F20002D6CC7 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 5AE3596F1BA50F1F002D6CC7;
+					};
+				};
+			};
+			buildConfigurationList = 5AE3596B1BA50F1F002D6CC7 /* Build configuration list for PBXProject "HoloHat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AE359671BA50F1F002D6CC7;
+			productRefGroup = 5AE359711BA50F1F002D6CC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AE3596F1BA50F1F002D6CC7 /* HoloHat */,
+				5AE359841BA50F20002D6CC7 /* HoloHatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AE3596E1BA50F1F002D6CC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE3597B1BA50F1F002D6CC7 /* Main.storyboard in Resources */,
+				5AE359801BA50F1F002D6CC7 /* LaunchScreen.xib in Resources */,
+				5AE3597D1BA50F1F002D6CC7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE359831BA50F20002D6CC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AE3596C1BA50F1F002D6CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE359B31BA5128A002D6CC7 /* detect.mm in Sources */,
+				5AE359B01BA5122B002D6CC7 /* cv.mm in Sources */,
+				5AE359781BA50F1F002D6CC7 /* ViewController.swift in Sources */,
+				5AE359761BA50F1F002D6CC7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE359811BA50F20002D6CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE3598C1BA50F20002D6CC7 /* HoloHatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AE359871BA50F20002D6CC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AE3596F1BA50F1F002D6CC7 /* HoloHat */;
+			targetProxy = 5AE359861BA50F20002D6CC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AE359791BA50F1F002D6CC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AE3597A1BA50F1F002D6CC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AE3597E1BA50F1F002D6CC7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AE3597F1BA50F1F002D6CC7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AE3598D1BA50F20002D6CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AE3598E1BA50F20002D6CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AE359901BA50F20002D6CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/benglard/Downloads/ios,
+				);
+				INFOPLIST_FILE = HoloHat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HoloHat/HoloHat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AE359911BA50F20002D6CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/benglard/Downloads/ios,
+				);
+				INFOPLIST_FILE = HoloHat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HoloHat/HoloHat-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		5AE359931BA50F20002D6CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HoloHatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoloHat.app/HoloHat";
+			};
+			name = Debug;
+		};
+		5AE359941BA50F20002D6CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HoloHatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoloHat.app/HoloHat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AE3596B1BA50F1F002D6CC7 /* Build configuration list for PBXProject "HoloHat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE3598D1BA50F20002D6CC7 /* Debug */,
+				5AE3598E1BA50F20002D6CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE3598F1BA50F20002D6CC7 /* Build configuration list for PBXNativeTarget "HoloHat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE359901BA50F20002D6CC7 /* Debug */,
+				5AE359911BA50F20002D6CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AE359921BA50F20002D6CC7 /* Build configuration list for PBXNativeTarget "HoloHatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE359931BA50F20002D6CC7 /* Debug */,
+				5AE359941BA50F20002D6CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AE359681BA50F1F002D6CC7 /* Project object */;
+}
